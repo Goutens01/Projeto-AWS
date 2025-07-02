@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Bandeirantes Hotel</title>
+  <link href="CSS/scrollbar.css" rel="stylesheet" type="text/css" />
+  <link href="CSS/header.css" type="text/css" rel="stylesheet">
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <header class="cabecalho">
+    <a href="index.html" class="logo">
+      <img src="IMG/LOGO_IMG.png" alt="IMAGEM LOGO BANDEIRANTES">
+    </a>
+
+    <nav class="barra">
+      <a href="index.html">Início</a>
+      <a href="#card-deck">Quartos</a>
+      <a href="#">Sobre</a>
+      <a href="usuario.php">Minhas reservas</a>
+    </nav>
+  </header>
+
+  <div class="nome">
+    <h1>Bandeirantes</h1>
+    <p>A estadia que você merece.</p>
+  </div>
+  
+  <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="IMG/hotel1.jpg" alt="Primeiro Slide" style="height: 500px; border-radius: 20px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="IMG/hotel2.jpg" alt="Segundo Slide" style="height: 500px; border-radius: 20px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="IMG/hotel3.jpg" alt="Terceiro Slide" style="height: 500px; border-radius: 20px;">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <div class="info">
+    
+    <div class="doc">
+      <img src="IMG/hotel4.jpg" alt="" style="height: 325px; width: 650px; margin-right: 10px; border-radius: 10px;">
+      <div class="info_text">
+        <h1>Grande área de lazer para sua família</h1>
+        <p>
+        Comportando Campos De Futebol, Piscinas, Saunas e Muito Mais.
+        </p>
+      </div>
+    </div>
+    
+    <div class="doc">
+      <div class="info_text">
+        <h1>Piscinas De Aguas Quentes</h1>
+        <p>
+        Ideal Para Sua Família e Bem Aconchegante Para idosos.<br>
+        área de aguas quentes recomendamos uso de protetor termico .
+        </p>
+      </div>
+      <img src="IMG/hotel5.jpg" alt="" style="height: 325px; width: 650px; margin-right: 10px;  border-radius: 10px;">
+      
+    </div>
+    
+    <div class="doc">
+      <img src="IMG/hotel6.jpg" alt="" style="height: 325px; width: 650px; margin-right: 10px; border-radius: 10px;">
+      <div class="info_text">
+        <h1>Salão De Encontros e Bailes De Gala</h1>
+        <p>
+        Salão reservado para eventos e muito mais .<br>
+        Recomentamos que vistam roupas finas e elegantes nesta salão.
+        </p>
+      </div>
+    </div>
+    
+  </div>
+
+  <div id="card-deck" class="card-deck" style="width: 100%; margin: 0px;">
+    <div class="card">
+      <img class="card-img-top" src="IMG/hotel7.jpg" alt="Imagem de capa do card" style="height: 255px;">
+      <div class="card-body">
+        <h5 class="card-title">Quarto Confort</h5>
+        <p class="card-text">
+          Um espaço moderno e acolhedor, o Quarto Confort oferece o equilíbrio perfeito entre sofisticação e comodidade.<br>
+          
+        </p>
+      </div>
+      <div class="card-footer">
+        <a class="text-primary" href="quarto_confort.php" >Mais informações sobre este quarto.</a>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="IMG/hotel8.jpg" alt="Imagem de capa do card" style="height: 255px;">
+      <div class="card-body">
+        <h5 class="card-title">Quarto Executive</h5>
+        <p class="card-text">
+          Projetado para quem busca conforto e praticidade, o Quarto Executive combina elegância com funcionalidade. Equipado com cama king-size, estação de trabalho ergonômica, ar-condicionado, Wi-Fi de alta velocidade e TV Smart, é ideal para hóspedes em viagens de negócios. <br>
+          
+        </p>
+      </div>
+      <div class="card-footer">
+        <a class="text-primary" href="quarto_executive.php" >Mais informações sobre este quarto.</a>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="IMG/hotel9.jpg" alt="Imagem de capa do card" style="height: 255px;">
+      <div class="card-body">
+        <h5 class="card-title">Quarto Presidencial</h5>
+        <p class="card-text">
+          A Suíte Presidencial é o ápice do luxo e exclusividade. Com um design sofisticado, oferece ampla área de estar, quarto com cama king-size e banheiro luxuoso equipado com banheira de hidromassagem e amenidades de alto padrão. <br>
+          
+        </p>
+      </div>
+      <div class="card-footer">
+        <a class="text-primary" href="quarto_presidencial.php" >Mais informaçõe sobre este quarto.</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center text-lg-start text-white">
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Sobre nós
+            </h6>
+            <p>
+              Somos um hotel com a missão de garantir que nossos hóspedes se sintam extremamente bem acomodados e vivam uma experiência inesquecível.<br>
+              
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contatos</h6>
+            <p><i class="fas fa-home mr-3"></i> Av. Cesario de Melo, 2541. Rio de Janeiro</p>
+            <p><i class="fas fa-envelope mr-3"></i>contato@bandeirantes.com</p>
+            <p><i class="fas fa-phone mr-3"></i>+55 21 94718-1247</p>
+            <p><i class="fas fa-print mr-3"></i>+55 21 95792-6993</p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-3">
+
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              © 2024 Copyright:
+              <a class="text-black" href="">Bandeirantes LTDA.</a>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <a class="btn btn-outline-light btn-floating m-1" class="text-black" role="button" href="https://facebook.com" style="font-size: 30px;"><i class='bx bxl-facebook-square'></i></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" class="text-black" role="button" href="https://x.com" style="font-size: 30px;"><i class='bx bxl-twitter'></i></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" class="text-black" role="button" href="https://instagram.com" style="font-size: 30px;"><i class='bx bxl-instagram'></i></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>  
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

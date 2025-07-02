@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/* Estilos Globais */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #333; /* Cor de texto padrão */
+  line-height: 1.6; /* Aumenta a legibilidade */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Estilos do Cabeçalho */
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px; /* Padding para espaçamento */
+  background-color: #fff; /* Fundo branco */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 50px; /* Altura da logo */
+}
+
+.barra a {
+  margin: 0 20px; /* Espaçamento entre os links */
+  text-decoration: none;
+  color: #333; /* Cor dos links */
+  font-weight: 500;
+}
+
+.barra a:hover {
+  color: #007bff; /* Cor ao passar o mouse */
+}
+
+/* Estilos para Nome */
+.nome {
+  margin: 70px 0 30px;
+  text-align: center;
+}
+
+.nome h1 {
+  font-size: 3.5rem; /* Tamanho da fonte do título */
+  font-weight: 600;
+  color: #222; /* Cor do título */
+}
+
+.nome p {
+  font-size: 1.25rem; /* Tamanho da fonte do subtítulo */
+  color: #555; /* Cor do subtítulo */
+}
+
+/* Estilos do Carrossel */
+.carousel-inner img {
+  height: 500px; /* Altura das imagens do carrossel */
+  border-radius: 20px; /* Bordas arredondadas */
+}
+
+/* Estilos de Informação */
+.info {
+  margin: 20px 15px;
+}
+
+.doc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px; /* Espaçamento entre os documentos */
+  padding: 20px; /* Padding para espaçamento interno */
+  border: 1px solid #e0e0e0; /* Borda leve */
+  border-radius: 10px; /* Bordas arredondadas */
+  background-color: #f9f9f9; /* Fundo leve */
+  transition: box-shadow 0.3s ease; /* Transição suave */
+}
+
+.doc:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra ao passar o mouse */
+}
+
+.info_text {
+  flex: 1; /* Permite que o texto ocupe o espaço restante */
+  margin-left: 20px; /* Espaçamento entre imagem e texto */
+}
+
+.info_text h1 {
+  font-size: 1.5rem; /* Tamanho do título na seção de informações */
+  margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.info_text p {
+  font-size: 1rem; /* Tamanho do texto na seção de informações */
+}
+
+/* Estilos do Card Deck */
+.card-deck {
+  margin: 0 15px;
+  display: flex; /* Flexbox para alinhamento */
+  flex-wrap: wrap; /* Permite que os cards se movam para a próxima linha */
+  justify-content: space-between; /* Espaçamento entre os cards */
+}
+
+.card {
+  margin-bottom: 20px; /* Espaçamento entre os cards */
+  flex: 1 1 calc(33% - 20px); /* Tamanho dos cards com espaçamento */
+  max-width: calc(33% - 20px); /* Largura máxima dos cards */
+}
+
+.card-img-top {
+  height: 255px; /* Altura das imagens dos cards */
+}
+
+/* Estilos do Rodapé */
+footer {
+  background-color: #343a40; /* Fundo escuro */
+  color: #fff; /* Cor do texto */
+  padding: 40px 0; /* Padding do rodapé */
+}
+
+footer h6 {
+  font-weight: bold; /* Negrito para os títulos do rodapé */
+}
+
+footer p {
+  margin: 10px 0; /* Margem entre os parágrafos */
+}
+
+/* Estilos de Botões de Redes Sociais */
+.btn-floating {
+  font-size: 30px; /* Tamanho dos ícones */
+}
